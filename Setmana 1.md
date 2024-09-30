@@ -1,5 +1,5 @@
 
-## Setmana de Pointers en C
+## Setmana de Punters en C
 
 ### Resum teòric
 
