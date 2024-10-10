@@ -17,7 +17,7 @@ Aquesta setmana hem treballat els conceptes relacionats amb la gestió de proces
 
 - **Recobriment de processos (`execlp` i altres)**: Les funcions de la família `exec` substitueixen el codi i les dades d'un procés existent per executar un altre programa. `execlp` és una variant que cerca el programa a la variable PATH del sistema, permetent executar un nou programa dins del mateix procés. (Pràctica de crear el nostre propi "sudo" amb c per practicar execlp i fork)
 
-- **Senyals**: Els senyals són notificacions que el sistema operatiu envia als processos per indicar esdeveniments com la finalització d'un procés fill, una interrupció per l'usuari, etc. Alguns senyals comuns són:
+- **Senyals**: Els senyals són notificacions que el sistema operatiu envia als processos per indicar esdeveniments com la finalització d'un procés fill, una interrupció per l'usuari, etc. Alguns senyals comuns fets a classe són:
   - `SIGINT` (Interrupció, per exemple Ctrl+C)
   - `SIGTERM` (Sol·licitud de finalització)
   - `SIGKILL` (Finalització forçada)
